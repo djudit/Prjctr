@@ -91,7 +91,7 @@ table {
 	}
 
 	tr:nth-child(3) td:nth-child(3) {
-		background: #56ccc8; /*сегодня*/
+		background: #56cd58; /*сегодня*/
 	}
 	
 	td:hover {
