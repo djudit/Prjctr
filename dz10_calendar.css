@@ -1,0 +1,127 @@
+table {
+	font-family: arial;
+	border: 1px solid #fff;
+	border-collapse: collapse;
+	margin: 100px auto;
+	color: #fff;
+	text-align: center;
+}
+
+.month {
+	height: 85px;
+	font-size: 16px;
+	background: #152840;
+}
+
+	a {
+		display: inline-block;
+		text-decoration: none;
+		color: #fff;
+	}
+
+	.month td:first-child .img-box {
+		margin-right: 5px;
+	}
+
+	.month td:last-child .img-box {
+		margin-left: 5px;
+	}
+
+	td {
+		/*border: 1px solid #fff;*/
+		border-collapse: collapse;
+		height: 42px;
+		width: 42px;
+		font-size: 15px;
+	}
+
+	td[colspan="3"] {
+		font-weight: bold;
+	}
+
+	tr:nth-child(2) td,
+	tr:nth-child(3) td,
+	tr:nth-child(4) td,
+	tr:nth-child(5) td,
+	tr:nth-child(6) td {
+		border: 1px solid #fff;
+	}
+
+	tr:nth-child(2) td:nth-child(1),
+	tr:nth-child(2) td:nth-child(2),
+	tr:nth-child(2) td:nth-child(3),
+	tr:nth-child(2) td:nth-child(4) {
+		background: #152840;
+	}
+
+	tr:nth-child(2) td:nth-child(5) {
+		background: #263a54;
+	}
+
+	td:nth-child(6),
+	td:nth-child(7) {
+		background: #324864;
+	}
+
+	tr:nth-child(3) td:nth-child(1), 
+	tr:nth-child(3) td:nth-child(2),
+	tr:nth-child(3) td:nth-child(3),
+	tr:nth-child(3) td:nth-child(4),
+	tr:nth-child(3) td:nth-child(5),
+	tr:nth-child(4) td:nth-child(1), 
+	tr:nth-child(4) td:nth-child(2),
+	tr:nth-child(4) td:nth-child(3),
+	tr:nth-child(4) td:nth-child(4),
+	tr:nth-child(4) td:nth-child(5),
+	tr:nth-child(5) td:nth-child(1), 
+	tr:nth-child(5) td:nth-child(2),
+	tr:nth-child(5) td:nth-child(3),
+	tr:nth-child(5) td:nth-child(4),
+	tr:nth-child(5) td:nth-child(5),
+	tr:last-child td:nth-child(1), 
+	tr:last-child td:nth-child(2), 
+	tr:last-child td:nth-child(3), 
+	tr:last-child td:nth-child(4), 
+	tr:last-child td:nth-child(5) {
+		background: #263a54;
+	}
+
+	tr:last-child td:last-child {
+		background: #152840;
+	}
+
+	tr:nth-child(3) td:nth-child(3) {
+		background: #56ccc8; /*сегодня*/
+	}
+	
+	td:hover {
+		background: #ea6060;
+		cursor: pointer;
+	}
+
+	tr:nth-child(2) td:nth-child(5):hover {
+		background: #ea6060;
+	}
+
+	tr:nth-child(3) td:nth-child(1):hover, 
+	tr:nth-child(3) td:nth-child(2):hover,
+	tr:nth-child(3) td:nth-child(3):hover,
+	tr:nth-child(3) td:nth-child(4):hover,
+	tr:nth-child(3) td:nth-child(5):hover,
+	tr:nth-child(4) td:nth-child(1):hover, 
+	tr:nth-child(4) td:nth-child(2):hover,
+	tr:nth-child(4) td:nth-child(3):hover,
+	tr:nth-child(4) td:nth-child(4):hover,
+	tr:nth-child(4) td:nth-child(5):hover,
+	tr:nth-child(5) td:nth-child(1):hover, 
+	tr:nth-child(5) td:nth-child(2):hover,
+	tr:nth-child(5) td:nth-child(3):hover,
+	tr:nth-child(5) td:nth-child(4):hover,
+	tr:nth-child(5) td:nth-child(5):hover,
+	tr:last-child td:nth-child(1):hover, 
+	tr:last-child td:nth-child(2):hover, 
+	tr:last-child td:nth-child(3):hover, 
+	tr:last-child td:nth-child(4):hover, 
+	tr:last-child td:nth-child(5):hover {
+		background: #ea6060;
+	}
